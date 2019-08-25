@@ -1,0 +1,1130 @@
+{
+  "Noble": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Commoner": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    }
+  },
+  "Dancer": {
+    "base": {
+      "hp": 0,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 3,
+      "speed": 3,
+      "luck": 0,
+      "defense": 2,
+      "resistance": 1,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": -0.05,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": -0.05,
+      "resistance": -0.05,
+      "charm": 0.1
+    }
+  },
+  "Myrmidon": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0.05,
+      "luck": 0,
+      "defense": 0,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Soldier": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 1,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0.05,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Fighter": {
+    "base": {
+      "hp": 0,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0.05,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Monk": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 1,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.05,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0.05,
+      "charm": 0.05
+    }
+  },
+  "Lord": {
+    "base": {
+      "hp": 1,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 1,
+      "luck": 1,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0.1,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.1
+    }
+  },
+  "Mercenary": {
+    "base": {
+      "hp": 1,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0.05,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0.05,
+      "luck": 0,
+      "defense": 0,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Thief": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 2,
+      "speed": 2,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0.1,
+      "speed": 0.1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Armored Knight": {
+    "base": {
+      "hp": 3,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": -2,
+      "luck": 0,
+      "defense": 4,
+      "resistance": -1,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": -0.1,
+      "luck": 0,
+      "defense": 0.1,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Cavalier": {
+    "base": {
+      "hp": 1,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 2,
+      "speed": 1,
+      "luck": 0,
+      "defense": 1,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0.05,
+      "magic": 0,
+      "dexterity": 0.05,
+      "speed": -0.1,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Brigand": {
+    "base": {
+      "hp": 2,
+      "strength": 2,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Archer": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 2,
+      "speed": 0,
+      "luck": 2,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.05,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0.1,
+      "speed": 0,
+      "luck": 0.05,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Brawler": {
+    "base": {
+      "hp": 1,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 2,
+      "speed": 2,
+      "luck": 0,
+      "defense": 0,
+      "resistance": -1,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0,
+      "magic": -0.1,
+      "dexterity": 0.1,
+      "speed": 0.1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": -0.1,
+      "charm": 0.05
+    }
+  },
+  "Mage": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 1,
+      "dexterity": 1,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 2,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.05,
+      "strength": -0.05,
+      "magic": 0.1,
+      "dexterity": 0.05,
+      "speed": 0,
+      "luck": 0,
+      "defense": -0.05,
+      "resistance": 0.05,
+      "charm": 0.05
+    }
+  },
+  "Dark Mage": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 2,
+      "dexterity": 1,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 1,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.05,
+      "strength": -0.05,
+      "magic": 0.1,
+      "dexterity": 0.05,
+      "speed": 0,
+      "luck": 0,
+      "defense": -0.05,
+      "resistance": 0.05,
+      "charm": 0
+    }
+  },
+  "Priest": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 1,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 3,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.05,
+      "strength": -0.05,
+      "magic": 0.05,
+      "dexterity": 0.05,
+      "speed": 0,
+      "luck": 0,
+      "defense": -0.05,
+      "resistance": 0.1,
+      "charm": 0.1
+    }
+  },
+  "Pegasus Knight": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 2,
+      "speed": 1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.15,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0.1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0.05,
+      "charm": 0.1
+    }
+  },
+  "Armored Lord": {
+    "base": {
+      "hp": 5,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": -3,
+      "luck": 0,
+      "defense": 5,
+      "resistance": 0,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0.05,
+      "magic": 0.05,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0.05,
+      "charm": 0.1
+    }
+  },
+  "High Lord": {
+    "base": {
+      "hp": 3,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 3,
+      "luck": 0,
+      "defense": 1,
+      "resistance": 0,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0.05,
+      "magic": 0,
+      "dexterity": 0.05,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0,
+      "charm": 0.1
+    }
+  },
+  "Wyvern Master": {
+    "base": {
+      "hp": 2,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 3,
+      "speed": 0,
+      "luck": 0,
+      "defense": 1,
+      "resistance": 0,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0.05,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0,
+      "charm": 0.1
+    }
+  },
+  "Hero": {
+    "base": {
+      "hp": 3,
+      "strength": 2,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 2,
+      "luck": 1,
+      "defense": 1,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0.1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Swordmaster": {
+    "base": {
+      "hp": 1,
+      "strength": 2,
+      "magic": 0,
+      "dexterity": 1,
+      "speed": 4,
+      "luck": 0,
+      "defense": 1,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.25,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0.2,
+      "luck": 0,
+      "defense": 0,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Assassin": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 3,
+      "speed": 5,
+      "luck": 1,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0.2,
+      "speed": 0.2,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    }
+  },
+  "Fortress Knight": {
+    "base": {
+      "hp": 5,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": -6,
+      "luck": 0,
+      "defense": 10,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": -0.1,
+      "luck": 0,
+      "defense": 0.15,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Paladin": {
+    "base": {
+      "hp": 2,
+      "strength": 2,
+      "magic": 0,
+      "dexterity": 2,
+      "speed": 1,
+      "luck": 0,
+      "defense": 2,
+      "resistance": 2,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0.05,
+      "speed": -0.1,
+      "luck": 0.05,
+      "defense": 0.05,
+      "resistance": 0.05,
+      "charm": 0.05
+    }
+  },
+  "Wyvern Rider": {
+    "base": {
+      "hp": 1,
+      "strength": 2,
+      "magic": 0,
+      "dexterity": 1,
+      "speed": 1,
+      "luck": 0,
+      "defense": 2,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.1,
+      "magic": -0.05,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Warrior": {
+    "base": {
+      "hp": 3,
+      "strength": 3,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 1,
+      "luck": 1,
+      "defense": 1,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.4,
+      "strength": 0.15,
+      "magic": -0.05,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Sniper": {
+    "base": {
+      "hp": 0,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 5,
+      "speed": 0,
+      "luck": 3,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0.05,
+      "magic": 0,
+      "dexterity": 0.2,
+      "speed": 0,
+      "luck": 0.1,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Grappler": {
+    "base": {
+      "hp": 2,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 3,
+      "speed": 3,
+      "luck": 0,
+      "defense": 1,
+      "resistance": -1,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.4,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0.1,
+      "speed": 0.1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Warlock": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 3,
+      "dexterity": 1,
+      "speed": 1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 4,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0,
+      "magic": 0.1,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": -0.05,
+      "resistance": 0.05,
+      "charm": 0.05
+    }
+  },
+  "Dark Bishop": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 4,
+      "dexterity": 2,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 3,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0,
+      "magic": 0.1,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": -0.05,
+      "resistance": 0.05,
+      "charm": 0
+    }
+  },
+  "Bishop": {
+    "base": {
+      "hp": 1,
+      "strength": 0,
+      "magic": 2,
+      "dexterity": 1,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 5,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0,
+      "magic": 0.1,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0.1,
+      "defense": -0.05,
+      "resistance": 0.05,
+      "charm": 0.1
+    }
+  },
+  "Enlightened One": {
+    "base": {
+      "hp": 1,
+      "strength": 2,
+      "magic": 3,
+      "dexterity": 1,
+      "speed": 1,
+      "luck": 1,
+      "defense": 2,
+      "resistance": 2,
+      "charm": 1
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0.1,
+      "magic": 0.1,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Emperor": {
+    "base": {
+      "hp": 8,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": -4,
+      "luck": 1,
+      "defense": 8,
+      "resistance": 0,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.1,
+      "magic": 0.1,
+      "dexterity": 0,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0.05,
+      "charm": 0.1
+    }
+  },
+  "Great Lord": {
+    "base": {
+      "hp": 5,
+      "strength": 2,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 4,
+      "luck": 1,
+      "defense": 1,
+      "resistance": 0,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0.1,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0,
+      "charm": 0.1
+    }
+  },
+  "Barbarossa": {
+    "base": {
+      "hp": 3,
+      "strength": 3,
+      "magic": 0,
+      "dexterity": 5,
+      "speed": 0,
+      "luck": 0,
+      "defense": 2,
+      "resistance": 0,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.15,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0.1,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0,
+      "charm": 0.1
+    }
+  },
+  "Falcon Knight": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 4,
+      "speed": 3,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 4,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0.2,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0.05,
+      "charm": 0.1
+    }
+  },
+  "Wyvern Lord": {
+    "base": {
+      "hp": 2,
+      "strength": 2,
+      "magic": 0,
+      "dexterity": 1,
+      "speed": 2,
+      "luck": 0,
+      "defense": 3,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.15,
+      "magic": -0.05,
+      "dexterity": 0,
+      "speed": 0.1,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Mortal Savant": {
+    "base": {
+      "hp": 1,
+      "strength": 1,
+      "magic": 2,
+      "dexterity": 1,
+      "speed": 1,
+      "luck": 0,
+      "defense": 2,
+      "resistance": 2,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0.1,
+      "magic": 0.1,
+      "dexterity": 0,
+      "speed": -0.1,
+      "luck": 0.1,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Great Knight": {
+    "base": {
+      "hp": 5,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": -2,
+      "luck": 0,
+      "defense": 6,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.1,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": -0.1,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": -0.05,
+      "charm": 0.05
+    }
+  },
+  "Bow Knight": {
+    "base": {
+      "hp": 2,
+      "strength": 1,
+      "magic": 0,
+      "dexterity": 3,
+      "speed": 3,
+      "luck": 1,
+      "defense": 1,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": -0.05,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Dark Knight": {
+    "base": {
+      "hp": 1,
+      "strength": 1,
+      "magic": 2,
+      "dexterity": 2,
+      "speed": 1,
+      "luck": 0,
+      "defense": 1,
+      "resistance": 3,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0.05,
+      "magic": 0.1,
+      "dexterity": 0,
+      "speed": -0.05,
+      "luck": 0,
+      "defense": 0.05,
+      "resistance": 0.1,
+      "charm": 0.05
+    }
+  },
+  "Holy Knight": {
+    "base": {
+      "hp": 2,
+      "strength": 1,
+      "magic": 1,
+      "dexterity": 2,
+      "speed": 1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 4,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0,
+      "magic": 0.1,
+      "dexterity": 0,
+      "speed": -0.05,
+      "luck": 0.1,
+      "defense": 0.05,
+      "resistance": 0.1,
+      "charm": 0.1
+    }
+  },
+  "War Master": {
+    "base": {
+      "hp": 3,
+      "strength": 5,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 2,
+      "luck": 1,
+      "defense": 1,
+      "resistance": 0,
+      "charm": 0
+    },
+    "growths": {
+      "hp": 0.4,
+      "strength": 0.15,
+      "magic": 0,
+      "dexterity": 0,
+      "speed": 0.1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0,
+      "charm": 0.05
+    }
+  },
+  "Gremory": {
+    "base": {
+      "hp": 0,
+      "strength": 0,
+      "magic": 5,
+      "dexterity": 2,
+      "speed": 1,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 4,
+      "charm": 2
+    },
+    "growths": {
+      "hp": 0.1,
+      "strength": 0,
+      "magic": 0.1,
+      "dexterity": 0.1,
+      "speed": 0,
+      "luck": 0,
+      "defense": 0,
+      "resistance": 0.05,
+      "charm": 0.1
+    }
+  }
+}

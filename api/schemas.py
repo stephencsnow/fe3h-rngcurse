@@ -57,4 +57,20 @@ class PlayerCharacter:
     current_class: CharacterClass
 
 
+@dataclass
+class RequestCharacterClass:
+    name: str
+    level_ups: int
+    is_current: bool
+
+
+@dataclass
+class RequestPlayerCharacter:
+    character: str
+    level: int
+    stats: Stats
+    classes: List[RequestCharacterClass]
+
+
 PlayerCharacterSchema = marshmallow_dataclass.class_schema(PlayerCharacter)
+InputSchema = marshmallow_dataclass.class_schema(RequestPlayerCharacter)

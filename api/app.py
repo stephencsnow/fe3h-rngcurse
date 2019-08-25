@@ -1,29 +1,50 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 from tinydb import TinyDB, where
+from werkzeug.exceptions import BadRequest
 
 from poibin import PoiBin
-from dataclasses import fields
+from dataclasses import fields, asdict
 
-from schemas import Stats, PlayerCharacter, PlayerCharacterSchema
+from schemas import Stats, PlayerCharacter, PlayerCharacterSchema, InputSchema
 
 app = Flask(__name__)
+CORS(app)
 
 db = TinyDB("data/db.json")
 
 
 @app.route("/calculate", methods=["POST"])
 def calculate():
-    data = request.get_json()
+    marshalled_data = InputSchema().load(request.get_json())
+
+    # populated data
+    data = {}
 
     # populate input
-    data["character"] = db.table("characters").get(where("name") == data["character"])
-    for character_class in data["classes"]:
-        character_class["character_class"] = db.table("classes").get(
-            where("name") == character_class["character_class"]
-        )
-    data["current_class"] = db.table("classes").get(
-        where("name") == data["current_class"]
+    data["character"] = db.table("characters").get(
+        where("name") == marshalled_data.character
     )
+    data["stats"] = asdict(marshalled_data.stats)
+
+    current_class_name = None
+    data["classes"] = []
+    for character_class in marshalled_data.classes:
+        data["classes"].append(
+            {
+                "character_class": db.table("classes").get(
+                    where("name") == character_class.name
+                ),
+                "level_ups": character_class.level_ups,
+            }
+        )
+        if character_class.is_current:
+            current_class_name = character_class.name
+
+    if not current_class_name:
+        raise BadRequest("Must specify current class")
+
+    data["current_class"] = db.table("classes").get(where("name") == current_class_name)
 
     marshalled_input = PlayerCharacterSchema().load(data)
 

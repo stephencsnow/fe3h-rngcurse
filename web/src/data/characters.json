@@ -1,0 +1,818 @@
+{
+  "Byleth": {
+    "base": {
+      "hp": 27,
+      "strength": 13,
+      "magic": 6,
+      "dexterity": 9,
+      "speed": 8,
+      "luck": 8,
+      "defense": 6,
+      "resistance": 6,
+      "charm": 7
+    },
+    "growths": {
+      "hp": 0.45,
+      "strength": 0.45,
+      "magic": 0.35,
+      "dexterity": 0.45,
+      "speed": 0.45,
+      "luck": 0.45,
+      "defense": 0.35,
+      "resistance": 0.3,
+      "charm": 0.45
+    }
+  },
+  "Edelgard": {
+    "base": {
+      "hp": 29,
+      "strength": 13,
+      "magic": 6,
+      "dexterity": 5,
+      "speed": 8,
+      "luck": 5,
+      "defense": 6,
+      "resistance": 4,
+      "charm": 10
+    },
+    "growths": {
+      "hp": 0.4,
+      "strength": 0.55,
+      "magic": 0.45,
+      "dexterity": 0.45,
+      "speed": 0.4,
+      "luck": 0.3,
+      "defense": 0.35,
+      "resistance": 0.35,
+      "charm": 0.6
+    }
+  },
+  "Hubert": {
+    "base": {
+      "hp": 22,
+      "strength": 6,
+      "magic": 12,
+      "dexterity": 6,
+      "speed": 7,
+      "luck": 6,
+      "defense": 4,
+      "resistance": 7,
+      "charm": 6
+    },
+    "growths": {
+      "hp": 0.35,
+      "strength": 0.3,
+      "magic": 0.55,
+      "dexterity": 0.45,
+      "speed": 0.45,
+      "luck": 0.35,
+      "defense": 0.25,
+      "resistance": 0.4,
+      "charm": 0.35
+    }
+  },
+  "Dorothea": {
+    "base": {
+      "hp": 24,
+      "strength": 5,
+      "magic": 11,
+      "dexterity": 6,
+      "speed": 7,
+      "luck": 6,
+      "defense": 4,
+      "resistance": 7,
+      "charm": 8
+    },
+    "growths": {
+      "hp": 0.4,
+      "strength": 0.2,
+      "magic": 0.4,
+      "dexterity": 0.45,
+      "speed": 0.4,
+      "luck": 0.35,
+      "defense": 0.15,
+      "resistance": 0.35,
+      "charm": 0.4
+    }
+  },
+  "Ferdinand": {
+    "base": {
+      "hp": 28,
+      "strength": 8,
+      "magic": 5,
+      "dexterity": 6,
+      "speed": 8,
+      "luck": 6,
+      "defense": 6,
+      "resistance": 2,
+      "charm": 7
+    },
+    "growths": {
+      "hp": 0.5,
+      "strength": 0.45,
+      "magic": 0.2,
+      "dexterity": 0.4,
+      "speed": 0.5,
+      "luck": 0.4,
+      "defense": 0.35,
+      "resistance": 0.2,
+      "charm": 0.4
+    }
+  },
+  "Bernadetta": {
+    "base": {
+      "hp": 25,
+      "strength": 8,
+      "magic": 5,
+      "dexterity": 7,
+      "speed": 7,
+      "luck": 5,
+      "defense": 4,
+      "resistance": 2,
+      "charm": 6
+    },
+    "growths": {
+      "hp": 0.35,
+      "strength": 0.35,
+      "magic": 0.2,
+      "dexterity": 0.55,
+      "speed": 0.5,
+      "luck": 0.25,
+      "defense": 0.2,
+      "resistance": 0.3,
+      "charm": 0.35
+    }
+  },
+  "Caspar": {
+    "base": {
+      "hp": 26,
+      "strength": 9,
+      "magic": 3,
+      "dexterity": 5,
+      "speed": 6,
+      "luck": 8,
+      "defense": 6,
+      "resistance": 2,
+      "charm": 4
+    },
+    "growths": {
+      "hp": 0.55,
+      "strength": 0.45,
+      "magic": 0.25,
+      "dexterity": 0.45,
+      "speed": 0.45,
+      "luck": 0.4,
+      "defense": 0.3,
+      "resistance": 0.2,
+      "charm": 0.25
+    }
+  },
+  "Petra": {
+    "base": {
+      "hp": 25,
+      "strength": 9,
+      "magic": 3,
+      "dexterity": 7,
+      "speed": 10,
+      "luck": 7,
+      "defense": 5,
+      "resistance": 2,
+      "charm": 6
+    },
+    "growths": {
+      "hp": 0.45,
+      "strength": 0.4,
+      "magic": 0.25,
+      "dexterity": 0.5,
+      "speed": 0.6,
+      "luck": 0.45,
+      "defense": 0.3,
+      "resistance": 0.15,
+      "charm": 0.35
+    }
+  },
+  "Linhardt": {
+    "base": {
+      "hp": 24,
+      "strength": 5,
+      "magic": 10,
+      "dexterity": 6,
+      "speed": 5,
+      "luck": 7,
+      "defense": 5,
+      "resistance": 9,
+      "charm": 3
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.3,
+      "magic": 0.45,
+      "dexterity": 0.4,
+      "speed": 0.4,
+      "luck": 0.45,
+      "defense": 0.3,
+      "resistance": 0.45,
+      "charm": 0.2
+    }
+  },
+  "Dimitri": {
+    "base": {
+      "hp": 28,
+      "strength": 12,
+      "magic": 4,
+      "dexterity": 7,
+      "speed": 7,
+      "luck": 5,
+      "defense": 7,
+      "resistance": 4,
+      "charm": 9
+    },
+    "growths": {
+      "hp": 0.55,
+      "strength": 0.6,
+      "magic": 0.2,
+      "dexterity": 0.5,
+      "speed": 0.5,
+      "luck": 0.25,
+      "defense": 0.4,
+      "resistance": 0.2,
+      "charm": 0.55
+    }
+  },
+  "Dedue": {
+    "base": {
+      "hp": 30,
+      "strength": 12,
+      "magic": 2,
+      "dexterity": 5,
+      "speed": 7,
+      "luck": 5,
+      "defense": 8,
+      "resistance": 1,
+      "charm": 4
+    },
+    "growths": {
+      "hp": 0.6,
+      "strength": 0.5,
+      "magic": 0.15,
+      "dexterity": 0.3,
+      "speed": 0.2,
+      "luck": 0.25,
+      "defense": 0.5,
+      "resistance": 0.1,
+      "charm": 0.3
+    }
+  },
+  "Felix": {
+    "base": {
+      "hp": 26,
+      "strength": 10,
+      "magic": 5,
+      "dexterity": 6,
+      "speed": 9,
+      "luck": 5,
+      "defense": 5,
+      "resistance": 3,
+      "charm": 5
+    },
+    "growths": {
+      "hp": 0.45,
+      "strength": 0.55,
+      "magic": 0.3,
+      "dexterity": 0.45,
+      "speed": 0.55,
+      "luck": 0.4,
+      "defense": 0.3,
+      "resistance": 0.2,
+      "charm": 0.3
+    }
+  },
+  "Mercedes": {
+    "base": {
+      "hp": 25,
+      "strength": 6,
+      "magic": 10,
+      "dexterity": 6,
+      "speed": 8,
+      "luck": 5,
+      "defense": 5,
+      "resistance": 9,
+      "charm": 8
+    },
+    "growths": {
+      "hp": 0.3,
+      "strength": 0.25,
+      "magic": 0.5,
+      "dexterity": 0.45,
+      "speed": 0.4,
+      "luck": 0.3,
+      "defense": 0.25,
+      "resistance": 0.45,
+      "charm": 0.4
+    }
+  },
+  "Ashe": {
+    "base": {
+      "hp": 23,
+      "strength": 8,
+      "magic": 5,
+      "dexterity": 8,
+      "speed": 9,
+      "luck": 6,
+      "defense": 5,
+      "resistance": 6,
+      "charm": 5
+    },
+    "growths": {
+      "hp": 0.35,
+      "strength": 0.35,
+      "magic": 0.25,
+      "dexterity": 0.55,
+      "speed": 0.5,
+      "luck": 0.4,
+      "defense": 0.2,
+      "resistance": 0.35,
+      "charm": 0.25
+    }
+  },
+  "Annette": {
+    "base": {
+      "hp": 23,
+      "strength": 6,
+      "magic": 11,
+      "dexterity": 7,
+      "speed": 7,
+      "luck": 6,
+      "defense": 5,
+      "resistance": 4,
+      "charm": 6
+    },
+    "growths": {
+      "hp": 0.25,
+      "strength": 0.3,
+      "magic": 0.5,
+      "dexterity": 0.5,
+      "speed": 0.35,
+      "luck": 0.35,
+      "defense": 0.2,
+      "resistance": 0.3,
+      "charm": 0.35
+    }
+  },
+  "Sylvain": {
+    "base": {
+      "hp": 27,
+      "strength": 9,
+      "magic": 5,
+      "dexterity": 5,
+      "speed": 8,
+      "luck": 6,
+      "defense": 6,
+      "resistance": 2,
+      "charm": 7
+    },
+    "growths": {
+      "hp": 0.55,
+      "strength": 0.45,
+      "magic": 0.3,
+      "dexterity": 0.35,
+      "speed": 0.5,
+      "luck": 0.35,
+      "defense": 0.4,
+      "resistance": 0.25,
+      "charm": 0.4
+    }
+  },
+  "Ingrid": {
+    "base": {
+      "hp": 27,
+      "strength": 8,
+      "magic": 6,
+      "dexterity": 6,
+      "speed": 8,
+      "luck": 6,
+      "defense": 5,
+      "resistance": 8,
+      "charm": 8
+    },
+    "growths": {
+      "hp": 0.4,
+      "strength": 0.35,
+      "magic": 0.35,
+      "dexterity": 0.4,
+      "speed": 0.6,
+      "luck": 0.45,
+      "defense": 0.3,
+      "resistance": 0.4,
+      "charm": 0.45
+    }
+  },
+  "Claude": {
+    "base": {
+      "hp": 26,
+      "strength": 11,
+      "magic": 5,
+      "dexterity": 8,
+      "speed": 8,
+      "luck": 7,
+      "defense": 6,
+      "resistance": 4,
+      "charm": 8
+    },
+    "growths": {
+      "hp": 0.35,
+      "strength": 0.4,
+      "magic": 0.25,
+      "dexterity": 0.6,
+      "speed": 0.55,
+      "luck": 0.45,
+      "defense": 0.3,
+      "resistance": 0.25,
+      "charm": 0.55
+    }
+  },
+  "Lorenz": {
+    "base": {
+      "hp": 28,
+      "strength": 8,
+      "magic": 7,
+      "dexterity": 6,
+      "speed": 7,
+      "luck": 5,
+      "defense": 6,
+      "resistance": 6,
+      "charm": 3
+    },
+    "growths": {
+      "hp": 0.55,
+      "strength": 0.4,
+      "magic": 0.4,
+      "dexterity": 0.45,
+      "speed": 0.4,
+      "luck": 0.25,
+      "defense": 0.3,
+      "resistance": 0.4,
+      "charm": 0.35
+    }
+  },
+  "Hilda": {
+    "base": {
+      "hp": 29,
+      "strength": 10,
+      "magic": 5,
+      "dexterity": 5,
+      "speed": 8,
+      "luck": 6,
+      "defense": 6,
+      "resistance": 3,
+      "charm": 7
+    },
+    "growths": {
+      "hp": 0.5,
+      "strength": 0.45,
+      "magic": 0.25,
+      "dexterity": 0.3,
+      "speed": 0.5,
+      "luck": 0.35,
+      "defense": 0.35,
+      "resistance": 0.2,
+      "charm": 0.5
+    }
+  },
+  "Raphael": {
+    "base": {
+      "hp": 30,
+      "strength": 11,
+      "magic": 3,
+      "dexterity": 5,
+      "speed": 6,
+      "luck": 6,
+      "defense": 7,
+      "resistance": 1,
+      "charm": 4
+    },
+    "growths": {
+      "hp": 0.65,
+      "strength": 0.5,
+      "magic": 0.15,
+      "dexterity": 0.35,
+      "speed": 0.15,
+      "luck": 0.35,
+      "defense": 0.45,
+      "resistance": 0.1,
+      "charm": 0.25
+    }
+  },
+  "Lysithea": {
+    "base": {
+      "hp": 22,
+      "strength": 4,
+      "magic": 11,
+      "dexterity": 7,
+      "speed": 7,
+      "luck": 4,
+      "defense": 3,
+      "resistance": 4,
+      "charm": 5
+    },
+    "growths": {
+      "hp": 0.2,
+      "strength": 0.15,
+      "magic": 0.6,
+      "dexterity": 0.6,
+      "speed": 0.5,
+      "luck": 0.15,
+      "defense": 0.1,
+      "resistance": 0.25,
+      "charm": 0.25
+    }
+  },
+  "Ignatz": {
+    "base": {
+      "hp": 25,
+      "strength": 8,
+      "magic": 5,
+      "dexterity": 7,
+      "speed": 8,
+      "luck": 8,
+      "defense": 4,
+      "resistance": 6,
+      "charm": 4
+    },
+    "growths": {
+      "hp": 0.35,
+      "strength": 0.35,
+      "magic": 0.3,
+      "dexterity": 0.5,
+      "speed": 0.5,
+      "luck": 0.55,
+      "defense": 0.25,
+      "resistance": 0.35,
+      "charm": 0.25
+    }
+  },
+  "Marianne": {
+    "base": {
+      "hp": 23,
+      "strength": 5,
+      "magic": 11,
+      "dexterity": 6,
+      "speed": 7,
+      "luck": 6,
+      "defense": 4,
+      "resistance": 8,
+      "charm": 7
+    },
+    "growths": {
+      "hp": 0.35,
+      "strength": 0.2,
+      "magic": 0.5,
+      "dexterity": 0.4,
+      "speed": 0.4,
+      "luck": 0.35,
+      "defense": 0.15,
+      "resistance": 0.45,
+      "charm": 0.4
+    }
+  },
+  "Leonie": {
+    "base": {
+      "hp": 26,
+      "strength": 9,
+      "magic": 5,
+      "dexterity": 8,
+      "speed": 9,
+      "luck": 6,
+      "defense": 7,
+      "resistance": 2,
+      "charm": 7
+    },
+    "growths": {
+      "hp": 0.4,
+      "strength": 0.4,
+      "magic": 0.2,
+      "dexterity": 0.55,
+      "speed": 0.6,
+      "luck": 0.4,
+      "defense": 0.4,
+      "resistance": 0.15,
+      "charm": 0.4
+    }
+  },
+  "Manuela": {
+    "base": {
+      "hp": 26,
+      "strength": 10,
+      "magic": 8,
+      "dexterity": 6,
+      "speed": 8,
+      "luck": 6,
+      "defense": 5,
+      "resistance": 4,
+      "charm": 7
+    },
+    "growths": {
+      "hp": 0.5,
+      "strength": 0.35,
+      "magic": 0.35,
+      "dexterity": 0.4,
+      "speed": 0.6,
+      "luck": 0.35,
+      "defense": 0.3,
+      "resistance": 0.25,
+      "charm": 0.5
+    }
+  },
+  "Hanneman": {
+    "base": {
+      "hp": 25,
+      "strength": 6,
+      "magic": 10,
+      "dexterity": 6,
+      "speed": 6,
+      "luck": 4,
+      "defense": 5,
+      "resistance": 7,
+      "charm": 5
+    },
+    "growths": {
+      "hp": 0.4,
+      "strength": 0.3,
+      "magic": 0.55,
+      "dexterity": 0.45,
+      "speed": 0.2,
+      "luck": 0.35,
+      "defense": 0.25,
+      "resistance": 0.4,
+      "charm": 0.35
+    }
+  },
+  "Seteth": {
+    "base": {
+      "hp": 27,
+      "strength": 9,
+      "magic": 8,
+      "dexterity": 8,
+      "speed": 5,
+      "luck": 6,
+      "defense": 6,
+      "resistance": 4,
+      "charm": 9
+    },
+    "growths": {
+      "hp": 0.5,
+      "strength": 0.45,
+      "magic": 0.35,
+      "dexterity": 0.5,
+      "speed": 0.5,
+      "luck": 0.25,
+      "defense": 0.3,
+      "resistance": 0.25,
+      "charm": 0.45
+    }
+  },
+  "Flayn": {
+    "base": {
+      "hp": 24,
+      "strength": 6,
+      "magic": 9,
+      "dexterity": 6,
+      "speed": 5,
+      "luck": 4,
+      "defense": 5,
+      "resistance": 10,
+      "charm": 9
+    },
+    "growths": {
+      "hp": 0.25,
+      "strength": 0.25,
+      "magic": 0.55,
+      "dexterity": 0.45,
+      "speed": 0.35,
+      "luck": 0.15,
+      "defense": 0.25,
+      "resistance": 0.5,
+      "charm": 0.45
+    }
+  },
+  "Cyril": {
+    "base": {
+      "hp": 24,
+      "strength": 7,
+      "magic": 4,
+      "dexterity": 6,
+      "speed": 6,
+      "luck": 6,
+      "defense": 5,
+      "resistance": 2,
+      "charm": 4
+    },
+    "growths": {
+      "hp": 0.35,
+      "strength": 0.2,
+      "magic": 0.15,
+      "dexterity": 0.4,
+      "speed": 0.4,
+      "luck": 0.3,
+      "defense": 0.1,
+      "resistance": 0.1,
+      "charm": 0.15
+    }
+  },
+  "Catherine": {
+    "base": {
+      "hp": 27,
+      "strength": 8,
+      "magic": 5,
+      "dexterity": 6,
+      "speed": 7,
+      "luck": 6,
+      "defense": 5,
+      "resistance": 2,
+      "charm": 4
+    },
+    "growths": {
+      "hp": 0.5,
+      "strength": 0.5,
+      "magic": 0.25,
+      "dexterity": 0.4,
+      "speed": 0.55,
+      "luck": 0.3,
+      "defense": 0.3,
+      "resistance": 0.2,
+      "charm": 0.25
+    }
+  },
+  "Alois": {
+    "base": {
+      "hp": 28,
+      "strength": 9,
+      "magic": 4,
+      "dexterity": 5,
+      "speed": 6,
+      "luck": 5,
+      "defense": 5,
+      "resistance": 2,
+      "charm": 7
+    },
+    "growths": {
+      "hp": 0.45,
+      "strength": 0.45,
+      "magic": 0.2,
+      "dexterity": 0.35,
+      "speed": 0.4,
+      "luck": 0.3,
+      "defense": 0.4,
+      "resistance": 0.2,
+      "charm": 0.4
+    }
+  },
+  "Gilbert": {
+    "base": {
+      "hp": 30,
+      "strength": 9,
+      "magic": 4,
+      "dexterity": 6,
+      "speed": 5,
+      "luck": 4,
+      "defense": 5,
+      "resistance": 2,
+      "charm": 6
+    },
+    "growths": {
+      "hp": 0.55,
+      "strength": 0.45,
+      "magic": 0.2,
+      "dexterity": 0.45,
+      "speed": 0.3,
+      "luck": 0.15,
+      "defense": 0.45,
+      "resistance": 0.1,
+      "charm": 0.35
+    }
+  },
+  "Shamir": {
+    "base": {
+      "hp": 26,
+      "strength": 8,
+      "magic": 4,
+      "dexterity": 7,
+      "speed": 6,
+      "luck": 8,
+      "defense": 5,
+      "resistance": 2,
+      "charm": 6
+    },
+    "growths": {
+      "hp": 0.35,
+      "strength": 0.4,
+      "magic": 0.2,
+      "dexterity": 0.55,
+      "speed": 0.4,
+      "luck": 0.55,
+      "defense": 0.2,
+      "resistance": 0.15,
+      "charm": 0.3
+    }
+  }
+}

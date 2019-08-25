@@ -1,31 +1,48 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <Character />
+    <ClassList />
+    <b-button
+      type="submit"
+      @click="calculate"
+    >Submit</b-button>
   </div>
 </template>
 
+<script>
+import { mapGetters } from 'vuex';
+import axios from 'axios';
+import Character from './components/Character.vue';
+import ClassList from './components/ClassList.vue';
+
+export default {
+  name: 'app',
+  components: {
+    Character,
+    ClassList,
+  },
+  methods: {
+    calculate() {
+      const data = {
+        ...this.character,
+        classes: this.formattedClasses,
+      };
+      console.log(data);
+      axios.post(
+        'http://localhost:5000/calculate', data,
+      ).then((response) => {
+        console.log(response);
+      });
+    },
+  },
+  computed: {
+    ...mapGetters({
+      character: 'getCharacter',
+      formattedClasses: 'getFormattedClasses',
+    }),
+  },
+};
+</script>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
