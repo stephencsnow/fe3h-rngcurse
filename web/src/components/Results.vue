@@ -52,7 +52,7 @@ export default {
         classes: this.formattedClasses,
       };
       axios.post(
-        'http://localhost:5000/calculate', data,
+        `${process.env.VUE_APP_API_URL}/calculate`, data,
       ).then((response) => {
         this.tableItems = this.formatResponse(response.data);
         this.$bvModal.show('results-modal');
