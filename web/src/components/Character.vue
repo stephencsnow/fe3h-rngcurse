@@ -1,18 +1,23 @@
 <template>
   <div>
-    <h2>Character</h2>
-    <b-form-select
-      @input="setCharacterName"
-      :options="characters"
-      :value=this.name
-      class="mb-2 mr-sm-2 mb-sm-0"
-    >
-    </b-form-select>
-    <b-form-group
-      label="Stats"
-      label-size="lg"
-      label-class="font-weight-bold pt-0"
-    >
+    <b-form-group>
+
+      <b-form-group
+        label-cols-sm="3"
+        label="Character:"
+        label-align-sm="right"
+        label-for="char-input"
+      >
+        <b-form-select
+          @input="setCharacterName"
+          :options="characters"
+          :value=this.name
+          id="char-input"
+          class="col-sm-2"
+        >
+        </b-form-select>
+      </b-form-group>
+
       <b-form-group
         label-cols-sm="3"
         label="Level:"

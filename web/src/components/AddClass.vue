@@ -3,40 +3,43 @@
     <b-form
       @submit="onSubmit"
       inline
+      class="my-2"
     >
-      <label
-        class="mr-sm-2"
-        for="class-input"
-      >Class:</label>
       <b-form-select
-        class="mb-2 mr-sm-2 mb-sm-0"
         v-model="className"
         :options="classes"
         id="class-input"
+        class="mr-2"
       >
+        <template v-slot:first>
+          <option
+            :value="null"
+            disabled
+          >Class</option>
+        </template>
       </b-form-select>
 
       <label
-        class="mr-sm-2"
         for="levelup-input"
+        class="mr-2"
       >Level Ups:</label>
       <b-input
-        class="sm-2 mr-sm-2 mb-sm-0"
         type="number"
         v-model="levelUps"
         id="levelup-input"
+        class="mr-2"
       ></b-input>
 
       <b-form-checkbox
         v-model="isCurrent"
-        class="mb-2 mr-sm-2 mb-sm-0"
+        class="mr-2"
       >
-        Current class
+        Current
       </b-form-checkbox>
       <b-button
         type="submit"
         variant="primary"
-      >Add class</b-button>
+      >Add</b-button>
     </b-form>
   </div>
 </template>
@@ -50,7 +53,7 @@ export default {
   data() {
     return {
       classes: json,
-      className: '',
+      className: null,
       levelUps: 0,
       isCurrent: false,
     };
@@ -71,7 +74,7 @@ export default {
       this.resetForm();
     },
     resetForm() {
-      this.className = '';
+      this.className = null;
       this.levelUps = 0;
       this.isCurrent = false;
     },

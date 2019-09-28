@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Classes</h2>
+    <h3>Classes</h3>
     <b-list-group>
       <template v-for="characterClass in getClasses">
         <b-list-group-item
