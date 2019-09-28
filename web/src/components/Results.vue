@@ -9,7 +9,9 @@
     </b-alert>
     <b-button
       type="submit"
+      variant="primary"
       @click="calculate"
+      block
     >Submit</b-button>
     <b-modal
       id="results-modal"

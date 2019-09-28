@@ -39,7 +39,7 @@
       </b-form-checkbox>
       <b-button
         type="submit"
-        variant="primary"
+        variant="outline-primary"
       >Add</b-button>
     </b-form>
   </div>
