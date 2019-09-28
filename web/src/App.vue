@@ -23,13 +23,6 @@ export default {
     Results,
   },
 };
-
-// show proper keyboard for iOS
-// https://stackoverflow.com/a/51747587
-if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
-  const inputs = document.querySelectorAll('input[type="number"]');
-  inputs.forEach(input => input.setAttribute('pattern', '\\d*'));
-}
 </script>
 
 <style>

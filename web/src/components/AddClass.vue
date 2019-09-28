@@ -25,6 +25,7 @@
       >Level Ups:</label>
       <b-input
         type="number"
+        inputmode="numeric"
         v-model="levelUps"
         id="levelup-input"
         class="mr-2"
@@ -54,7 +55,7 @@ export default {
     return {
       classes: json,
       className: null,
-      levelUps: 0,
+      levelUps: null,
       isCurrent: false,
     };
   },
@@ -75,7 +76,7 @@ export default {
     },
     resetForm() {
       this.className = null;
-      this.levelUps = 0;
+      this.levelUps = null;
       this.isCurrent = false;
     },
   },

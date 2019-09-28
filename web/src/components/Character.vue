@@ -29,6 +29,7 @@
           :value=this.lvl
           :state="validLevel"
           type="number"
+          inputmode="numeric"
           id="lvl-input"
         ></b-form-input>
       </b-form-group>
@@ -43,6 +44,7 @@
           @input="setCharacterHp"
           :value=this.hp
           type="number"
+          inputmode="numeric"
           id="hp-input"
         ></b-form-input>
       </b-form-group>
@@ -57,6 +59,7 @@
           @input="setCharacterStr"
           :value=this.str
           type="number"
+          inputmode="numeric"
           id="str-input"
         ></b-form-input>
       </b-form-group>
@@ -71,6 +74,7 @@
           @input="setCharacterMag"
           :value=this.mag
           type="number"
+          inputmode="numeric"
           id="mag-input"
         ></b-form-input>
       </b-form-group>
@@ -85,6 +89,7 @@
           @input="setCharacterDex"
           :value=this.dex
           type="number"
+          inputmode="numeric"
           id="dex-input"
         ></b-form-input>
       </b-form-group>
@@ -99,6 +104,7 @@
           @input="setCharacterSpd"
           :value=this.spd
           type="number"
+          inputmode="numeric"
           id="spd-input"
         ></b-form-input>
       </b-form-group>
@@ -113,6 +119,7 @@
           @input="setCharacterLck"
           :value=this.lck
           type="number"
+          inputmode="numeric"
           id="lck-input"
         ></b-form-input>
       </b-form-group>
@@ -127,6 +134,7 @@
           @input="setCharacterDef"
           :value=this.def
           type="number"
+          inputmode="numeric"
           id="def-input"
         ></b-form-input>
       </b-form-group>
@@ -141,6 +149,7 @@
           @input="setCharacterRes"
           :value=this.res
           type="number"
+          inputmode="numeric"
           id="res-input"
         ></b-form-input>
       </b-form-group>
@@ -155,6 +164,7 @@
           @input="setCharacterCha"
           :value=this.cha
           type="number"
+          inputmode="numeric"
           id="cha-input"
         ></b-form-input>
       </b-form-group>
