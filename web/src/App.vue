@@ -3,6 +3,7 @@
     id="app"
     class="container"
   >
+    <GithubFork />
     <h2>Fire Emblem Three Houses RNGCurse</h2>
     <Character />
     <ClassList />
@@ -14,6 +15,7 @@
 import Character from './components/Character.vue';
 import ClassList from './components/ClassList.vue';
 import Results from './components/Results.vue';
+import GithubFork from './components/GithubFork.vue';
 
 export default {
   name: 'app',
@@ -21,6 +23,7 @@ export default {
     Character,
     ClassList,
     Results,
+    GithubFork,
   },
 };
 </script>
