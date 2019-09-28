@@ -1,5 +1,10 @@
 <template>
   <div>
+    <span>
+      Fill in your character stats.
+      Do not include stats that were added by
+      stat boosting items or by temporary boosts (e.g. meals, abilities).
+    </span>
     <b-form-group>
 
       <b-form-group

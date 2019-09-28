@@ -1,6 +1,7 @@
 <template>
   <div>
     <h3>Classes</h3>
+    <span>Add class history for this character.</span>
     <b-list-group>
       <template v-for="characterClass in getClasses">
         <b-list-group-item
