@@ -11,7 +11,7 @@ marshmallow==3.0.0rc9
 marshmallow-dataclass==6.0.0rc5
 mccabe==0.6.1
 mypy-extensions==0.4.1
-numpy==1.17.0
+numpy==1.22.0
 pycodestyle==2.5.0
 pyflakes==2.1.1
 six==1.12.0
